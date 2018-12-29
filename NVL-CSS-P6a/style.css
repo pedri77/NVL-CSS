@@ -1,0 +1,60 @@
+* {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+table {
+    background-color: whitesmoke;
+}
+
+thead {
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.primera {
+    background-color: #FFFFFF;
+}
+
+.segunda {
+        background-color: #E6E6E6;
+}
+
+.tercera {
+    background-color: #CCCCCC;
+}
+
+.cuarta {
+    background-color: #B3B3B3;
+}
+
+.quinta {
+    background-color: #999999;
+}
+
+.sexta {
+    background-color: #808080;
+}
+
+.septima {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+.octava {
+    background-color: #4C4C4C;
+    color: #FFFFFF;
+}
+
+.novena {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.decima {
+    background-color: #191919;
+    color: #FFFFFF;
+}
