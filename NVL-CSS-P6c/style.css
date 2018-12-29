@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 >  h2 {
+    color: grey;
+}
+
+.titulo {
+    color: orange;
+}
+
+img {
+    width: 1200px;
+    height: 800px;
+}
+
+ul {
+    color: brown;
+    font-size: 16px;
+}
+
+a[href="https://www.recetasderechupete.com"]{
+    color: aqua;
+}
+
+
+
