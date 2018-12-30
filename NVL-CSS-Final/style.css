@@ -1,0 +1,127 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ancho del div contenedor #todo: */
+#todo {
+    width:100%;  
+    background-color: antiquewhite;
+    height: 800px;
+ }
+
+ /* Le fijamos el ancho a la columna de la derecha y de la izquierda: */
+#izquierda, #derecha {
+    width:20%;
+    background-color: olivedrab;
+    height: 80%;
+ }
+ /* columna central: */
+
+#contenido {  	
+    width:60%;  
+ }
+
+ /* posicion de cada columna */
+ 
+#izquierda {  	
+    float: left;
+    height: 1200px;
+ }
+
+ #derecha {  	
+    float: right; 
+    height: 1200px; 
+ }
+
+/* fijamos un margen para el div del centro */
+#contenido {  	
+    margin-left: 160px;
+    height: 1200px;
+    background-color:orange;
+    width: 80%;
+ }
+
+header {
+    background-color: bisque;
+ }
+
+ul li {
+    list-style: none;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 20Px;
+    background-color: orangered;
+    width: 100px;
+    text-align: center;
+ }
+
+ul li:hover {
+     background-color: #444444;
+ }
+
+ul li a {
+    text-decoration: none;
+    color: white;
+ }
+
+ /* Enlaces a artículos del lateral derecho */
+ 
+#enlace_articulo {
+    list-style: none;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10Px;
+    background-color: salmon;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+ }
+
+#enlace_articulo:hover {
+    background-color: blueviolet;
+ }
+
+ /* Enlaces a blogs amigos */
+
+#enlace_blog {
+    list-style: none;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10Px;
+    background-color: coral;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+ }
+
+#enlace_blog:hover {
+    background-color: yellow;
+ }
+
+
+img {
+     width: 100px;
+     height: 100px;
+     border-radius: 100px;
+     margin-left: 20px;
+     
+ }
+
+h1 {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #a09494;
+    border-bottom: 10px;
+ }
+
+footer i {
+     color: white;
+     font-size: 48px;
+ }
+
